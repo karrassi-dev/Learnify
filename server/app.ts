@@ -22,7 +22,7 @@ app.use(cookieParser());
 // origin: process.env.ORIGIN,
 app.use(
     cors({
-        origin: ['http://localhost:3000', "https://Learnifylms.netlify.app"],
+        origin: ['http://54.81.206.180:8000', "https://Learnifylms.netlify.app"],
         credentials: true,
     })
 );
